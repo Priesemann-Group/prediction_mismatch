@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "model-update"
+version = "1.0.0"
+description = "The code generating the figures of the publication \"Prediction mismatch responses arise as corrections of a predictive spiking code\""
+authors = ["Kjartan van Driel, Fabian Mikulasch"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.13"
+numpy = "^1.26.0"
+matplotlib = "^3.8.0"
+tqdm = "^4.66.1"
+cmcrameri = "^1.7"
+ipykernel = "^6.25.2"
+ruff = "^0.0.291"
+nbstripout = "^0.6.1"
+nbdime = "^3.2.1"
+
+[tool.ruff]
+include = ["*.py", "*.pyi", "**/pyproject.toml", "*.ipynb"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
