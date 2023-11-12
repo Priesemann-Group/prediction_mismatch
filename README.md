@@ -1,4 +1,6 @@
-# This code generates the results from "Prediction mismatch responses arise as corrections of a predictive spiking code"
+# Prediction mismatch responses arise as corrections of a predictive spiking code
+
+To reproduce the results
 
 1. Download the reposity
 2. Make sure to install the [poetry](https://python-poetry.org/docs/) dependency manager
